@@ -8,7 +8,7 @@
 
 **llmeter** helps developers instantly calculate and compare the cost of running prompts across major LLM providers — before they get a surprise bill.
 
-👉 **[Try it live →](https://llmeter.vercel.app)** *(coming soon)*
+👉 **[Try it live →](https://thellmeter.vercel.app/)** *(coming soon)*
 
 **Main UI** 
 ![llmeter main](Main.v1.png)

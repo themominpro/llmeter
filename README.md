@@ -16,7 +16,7 @@
 
 ## 🤔 Why llmeter?
 
-You write a prompt. You're not sure whether to use Claude, GPT-4, or Gemini. They all have different pricing models, token limits, and costs.
+You write a prompt. You're not sure whether to use Claude, GPT-5, or Gemini. They all have different pricing models, token limits, and costs.
 
 **llmeter answers in seconds:**
 - How much will this prompt cost on each provider?
@@ -40,13 +40,40 @@ No more guessing. No more surprise bills.
 
 ## 🤖 Supported Providers
 
-| Provider | Models |
-|----------|--------|
-| **Anthropic** | Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku |
-| **OpenAI** | GPT-4o, GPT-4 Turbo, GPT-3.5 Turbo |
-| **Google** | Gemini 1.5 Pro, Gemini 1.5 Flash, Gemini 1.0 Pro |
+> Pricing per 1 million tokens (input / output). Last updated: March 2026.
 
-More providers coming soon — contributions welcome!
+### Anthropic — Claude 4.x
+
+| Model | Input | Output |
+|-------|-------|--------|
+| Claude Opus 4.6 | $5.00 | $25.00 |
+| Claude Sonnet 4.6 | $3.00 | $15.00 |
+| Claude Haiku 4.5 | $1.00 | $5.00 |
+
+### OpenAI — GPT-5.x
+
+| Model | Input | Output |
+|-------|-------|--------|
+| GPT-5.4 | $2.50 | $15.00 |
+| GPT-5.4 Pro | $30.00 | $180.00 |
+| GPT-5.2 | $1.75 | $14.00 |
+| GPT-5 | $1.25 | $10.00 |
+| GPT-5 Mini | $0.25 | $2.00 |
+
+### Google — Gemini 3.x / 2.5
+
+| Model | Input | Output |
+|-------|-------|--------|
+| Gemini 3.1 Pro Preview | $2.00 | $12.00 |
+| Gemini 3 Flash | $0.50 | $3.00 |
+| Gemini 2.5 Pro | $1.25 | $10.00 |
+| Gemini 2.5 Flash | $0.30 | $2.50 |
+| Gemini 2.5 Flash-Lite | $0.10 | $0.40 |
+
+> ⚠️ Note: Gemini 2.0 Flash is deprecated and will be shut down June 1, 2026.
+> Long-context pricing (>200K tokens) may differ — check the [pricing page](https://ai.google.dev/gemini-api/docs/pricing).
+
+More providers coming soon (Mistral, Groq, DeepSeek) — contributions welcome!
 
 ---
 
@@ -96,7 +123,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📊 Pricing Data
 
-All pricing data is sourced directly from official provider documentation and updated manually. If you spot an outdated price, please [open an issue](https://github.com/themominpro/llmeter/issues) or submit a PR.
+All pricing data is sourced directly from official provider documentation:
+- [Anthropic Pricing](https://platform.claude.com/docs/en/about-claude/pricing)
+- [OpenAI Pricing](https://openai.com/api/pricing/)
+- [Google Gemini Pricing](https://ai.google.dev/gemini-api/docs/pricing)
+
+If you spot an outdated price, please [open an issue](https://github.com/themominpro/llmeter/issues) or submit a PR.
 
 ---
 

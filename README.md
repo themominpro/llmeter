@@ -10,7 +10,10 @@
 
 👉 **[Try it live →](https://llmeter.vercel.app)** *(coming soon)*
 
-![llmeter screenshot](screenshot.png)
+**Main UI** 
+![llmeter main](Main.v1.png)
+**Stats UI** 
+![llmeter stats](Stats.v1.png)
 
 ---
 
